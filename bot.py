@@ -18,4 +18,4 @@ def load_cogs(bot):
 load_cogs(bot)
 
 
-bot.run("") #INSIRA O TOKEN AQUI
+bot.run(os.environ.get("DISCORD_TOKEN")) 
